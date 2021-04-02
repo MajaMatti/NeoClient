@@ -54,10 +54,6 @@ const char* mqtt_fprint = "4F:BD:64:C3:52:FF:4B:F9:61:69:44:A3:93:84:3C:XX:XX:XX
 WiFiClientSecure espClient;
 PubSubClient client(espClient);
 
-// temp & hum
-float t = 0.0;
-float h = 0.0;
-
 int R;
 int G;
 int B;
