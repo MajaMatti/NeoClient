@@ -150,8 +150,8 @@ G = mask_G && (message.ToInt());
 B = mask_B && (message.ToInt());
 
 
-for(int i=0;i<NUMPIXELS;i++){
-  pixels.setPixelColor(i, pixels.Color(R,G,B));
+for(int j=0;j<NUMPIXELS;j++){
+  pixels.setPixelColor(j, pixels.Color(R,G,B));
   pixels.show();
 }
 
